@@ -21,3 +21,4 @@ jobs:
         with:
           directory: .
           framework: terraform 
+          external_checks_repos: https://github.com/AnilNanda/checkov-custom-policy.git
