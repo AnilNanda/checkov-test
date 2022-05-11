@@ -14,8 +14,8 @@ provider "aws" {
 
 resource "aws_iam_user" "lbi" {
   name = "lbUser"
-  tags = {
-	"Inactivate" = "True"
-}
+#  tags = {
+#	"Inactivate" = "True"
+#}
 }
 
