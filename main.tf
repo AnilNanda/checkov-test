@@ -19,3 +19,6 @@ resource "aws_iam_user" "lbi" {
 }
 }
 
+resource "aws_s3_bucket" "b" {
+  bucket = "my-tf-test-bucket"
+}
