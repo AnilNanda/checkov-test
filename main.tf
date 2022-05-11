@@ -12,7 +12,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_iam_user" "lb" {
+resource "aws_iam_user" "lbi" {
   name = "lbUser"
   tags = {
 	"Inactivate" = "True"
