@@ -19,6 +19,3 @@ resource "aws_iam_user" "lbi" {
 }
 }
 
-resource "aws_s3_bucket" "checkovBucket" {
-  bucket = "checkov15232176"
-}

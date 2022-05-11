@@ -17,6 +17,7 @@ jobs:
       - name: Test with Checkov
         id: checkov
         uses: bridgecrewio/checkov-action@master
+        if: github.event_name == 'pull_request' and endsWith(github.ref, '/master')
         with:
           directory: .
           framework: terraform 
